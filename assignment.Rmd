@@ -2,29 +2,36 @@
 title: "Assignment"
 author: "Rachel Nunley"
 date: "2023-08-16"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+library(raster)
+library(habtools)
+library(ggplot2)
+library(dplyr)
+library(fishualize)
+plot(horseshoe)
 ```
 
-## Including Plots
+### Current lab
+ToBo Lab
 
-You can also embed plots, for example:
+### Project focus
+Sponge Taxonomy
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### Why you chose this course
+This course will give me a better understanding of coral reefs in general and hopefully I'm able to apply this to my sponge research.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### What do you want to learn about the most in this course
+I hope to be more proficient in R but also learn more about reef structure and function so I can better understand the roles sponges play in this ecosystem.
+
+### Your R experience
+I took MBIO 612 with Mahdi, I also took ZOOL 780/781 which required a heavy use of R related to population changes and other ecological/evolutionary concepts. I'm not great at R, but I have beginner-intermediate experience.
+
+### Fun fact
+I have a cat, his name is Winston. We like to go on walks together.
